@@ -2,7 +2,7 @@ from selenium import webdriver         #pip install selenium #pip install Beauti
 from bs4 import BeautifulSoup as soup  #เอาไว้ extract html
 import time
 
-driverpath=r'E:\Program\Selenium\chromedriver.exe'
+driverpath=r'E:\Program\Selenium\chromedriver.exe' #ตำแหน่ง path ตัว driver selenium
 
 opt = webdriver.ChromeOptions()
 opt.add_argument('headless')
