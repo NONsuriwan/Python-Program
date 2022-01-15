@@ -1,4 +1,4 @@
-from selenium import webdriver
+from selenium import webdriver         #pip install selenium #pip install BeautifulSoup
 from bs4 import BeautifulSoup as soup  #เอาไว้ extract html
 import time
 
